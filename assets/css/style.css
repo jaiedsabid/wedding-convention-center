@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Manrope&family=Poppins:wght@400;600;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Manrope&family=Poppins:wght@400;600;700&family=Roboto:wght@400;700&display=swap');
 
 
 :root {
@@ -44,6 +44,24 @@
     object-position: center;
 }
 
+.package-card {
+    background: #3F87F5;
+    box-shadow: 0px 25px 15px rgba(63, 135, 245, 0.25);
+    border-radius: 26px;
+    position: relative;
+    top: -80px;
+}
+
+.btn.btn-package-normal {
+    color: #3F87F5 !important;
+    background-color: rgba(244, 149, 209, 0.1) !important;
+}
+
+.btn.btn-package-special {
+    color: #3F87F5 !important;
+    background-color: #fff !important;
+}
+
 
 /* Media queries */
 
@@ -51,6 +69,10 @@
     /* Tablet and mobile screens */
     .fs-custom-1 {
         font-size: 1.5rem;
+    }
+    .package-card {
+        top: 0;
+        margin-bottom: 15px;
     }
 }
 

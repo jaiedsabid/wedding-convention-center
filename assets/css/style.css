@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Manrope&family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Manrope&family=Poppins:wght@400;600;700&family=Roboto&display=swap');
 
 
 :root {
@@ -31,4 +31,29 @@
 
 .font-bebas {
     font-family: var(--font-family-bebas);
+}
+
+/* Custom Styling */
+
+.fs-custom-1 {
+    font-size: 3rem;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/* Media queries */
+
+@media screen and (max-width: 768px) {
+    /* Tablet and mobile screens */
+    .fs-custom-1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /* Larger screens */
 }

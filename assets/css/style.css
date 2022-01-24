@@ -62,6 +62,10 @@
     background-color: #fff !important;
 }
 
+.card-img-top {
+    width: 100px !important;
+}
+
 #accordionExample .border-custom-1 {
     border: 1px solid #D5E5FB !important;
     border-radius: 5px !important;

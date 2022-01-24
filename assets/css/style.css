@@ -35,6 +35,10 @@
 
 /* Custom Styling */
 
+.navbar-toggler-icon {
+    background-image: url("../icons/menu-2_1.svg") !important;
+}
+
 .fs-custom-1 {
     font-size: 3rem;
 }

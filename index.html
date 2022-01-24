@@ -419,6 +419,26 @@
         crossorigin="anonymous"></script>
     <!-- FontAwesome Script -->
     <script src="https://kit.fontawesome.com/ece2ae6906.js" crossorigin="anonymous"></script>
+    <!-- Internal Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const toaster = document.querySelector('#liveToast');
+            toaster.classList.add('show');
+
+            const toasterCloseBtn = document.querySelector('[data-bs-dismiss="toast"]');
+
+            toasterCloseBtn.addEventListener('click', () => {
+                toaster.classList.remove('show');
+                toaster.classList.add('hide');
+            });
+
+            setTimeout(() => {
+                toaster.classList.remove('show');
+                toaster.classList.add('hide');
+            }, 20000);
+        });
+
+    </script>
 </body>
 
 </html>
